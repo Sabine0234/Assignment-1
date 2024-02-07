@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6d7b6; /* Light brown background */
+        }
+
+        header {
+            background-color: #4d2d20; /* Dark brown header background */
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #6e4f39; /* Medium brown navigation background */
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            margin: 20px;
+            color: #4d2d20; /* Dark brown text */
+        }
+        #offerings {
+            padding-bottom: 4rem;
+        }
+
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: nowrap; /* Prevent wrapping to keep images on the same line */
+        }
+
+        .flex-item {
+            flex: 0 0 30%;
+            margin: 10px;
+        }
+
+        .flex-item img {
+            width: 100%;
+            height: 200px; /* Set a fixed height for all images */
+            object-fit: cover; /* Ensure images maintain aspect ratio */
+            border-radius: 5px; /* Optional: Add some border-radius for a rounded look */
+        }
+
+        footer {
+            background-color: #6e4f39; /* Medium brown footer background */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Coffee Shop</h1>
+    </header>
+
+    <nav>
+        <a href="Untitled.html">Home</a>
+        <a href="Register.html">Register</a>
+        <a href="Login.html">Login</a>
+    </nav>
+
+    <section>
+        <h2>About Us</h2>
+        <p>Welcome to our cozy coffee shop, where you can enjoy the finest coffee blends and delicious pastries in a warm and inviting atmosphere. Our dedicated team is passionate about providing you with the best coffee experience.</p>
+    </section>
+
+    <section id="Offerings">
+        <h2>Our Offerings</h2>
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="coffee.jpeg" alt="Coffee 1">
+                <p>Delicious Coffee</p>
+            </div>
+            <div class="flex-item">
+                <img src="coffe3.jpeg" alt="Coffee 2">
+                <p>Artisan Pastries</p>
+            </div>
+            <div class="flex-item">
+                <img src="coffee.jpeg" alt="Coffee 3">
+                <p>Cozy Ambiance</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coffee Shop | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Contact Us</a></p>
+        <p>Visit us at 123 Coffee Street, Cityville</p>
+    </footer>
+
+</body>
+</html>
